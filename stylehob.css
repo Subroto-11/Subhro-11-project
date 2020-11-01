@@ -1,0 +1,19 @@
+body{
+	background-image: url("https://cdn.pixabay.com/photo/2013/07/13/10/49/ball-157860_960_720.png");
+	background-size: cover;
+}
+ul{
+	list-style-position: inside;	
+	font-size: 25px;
+	font-family: cursive;
+}
+button{
+	font-family: serif;
+	padding: 15px 20px;
+	border-radius: 10px;
+	background-color: #ff6600;
+	cursor: pointer;
+}
+button:hover{
+	background-color: #ffffb3;
+	transform: scale(1.2);

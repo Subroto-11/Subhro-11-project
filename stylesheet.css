@@ -1,0 +1,27 @@
+body{
+	background-image: url("https://i.redd.it/p3bxsf1ybuq11.png");
+	background-size: cover;
+}
+img{
+	height: 200px;
+	width: 250px;
+	border-radius: 60%;
+	box-shadow: 5px 10px 10px;
+	color: #ffffb3;	
+}
+img:hover{
+	transform: scale(1.2);
+	transition-delay: 2s;
+	transition: all;
+}
+button{
+	font-family: serif;
+	padding: 20px 30px;
+	border-radius: 10px;
+	background-color: #ff6600;
+	cursor: pointer;
+}
+button:hover{
+	background-color: #ffffb3;
+	transform: scale(1.2);
+}
