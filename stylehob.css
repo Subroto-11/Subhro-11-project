@@ -1,19 +1,52 @@
 body{
 	background-image: url("https://cdn.pixabay.com/photo/2013/07/13/10/49/ball-157860_960_720.png");
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 ul{
 	list-style-position: inside;	
 	font-size: 25px;
 	font-family: cursive;
 }
-button{
-	font-family: serif;
-	padding: 15px 20px;
-	border-radius: 10px;
-	background-color: #ff6600;
-	cursor: pointer;
+button {
+  border-radius: 4px;
+  background-color: #ffd1b3;
+  border: groove;
+  color: #801a00;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 110px;
+  transition: all 0.8s;
+  cursor: pointer;
+  margin: 5px;
 }
 button:hover{
 	background-color: #ffffb3;
 	transform: scale(1.2);
+	color: #336600;
+}
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
